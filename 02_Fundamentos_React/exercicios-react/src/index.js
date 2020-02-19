@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import PrimeiroComponente from './componentes/PrimeiroComponente';
 
 const elemento = document.getElementById('root');
 
@@ -7,7 +8,7 @@ const elemento = document.getElementById('root');
 // ReactDom.render('Ola React', elemento);
 
 // Para usar JSX, importe o 'react'
-ReactDom.render(<h1>Ola React</h1>, elemento);
+// ReactDom.render(<h1>Ola React</h1>, elemento);
 
 // Estruturas complexas, ao inves de usar JS puro, com appendChild
 // ReactDom.render(<ul>
@@ -23,3 +24,10 @@ ReactDom.render(<h1>Ola React</h1>, elemento);
 //   <li>Ana</li>
 // </ul>;
 // ReactDom.render(jsx, elemento);
+
+// Usando um Componente
+ReactDom.render(
+    <div>
+      <PrimeiroComponente/>
+    </div>
+    , elemento);
