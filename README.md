@@ -14,3 +14,8 @@ Apostila do Curso
 
 - NodeJS (win v6.10)(linux/mac v8.11)
 - MongoDB (win v3.4)(mac v3.6)
+
+
+## Documentações
+
+- [pt-br.reactjs.org](https://pt-br.reactjs.org/)
