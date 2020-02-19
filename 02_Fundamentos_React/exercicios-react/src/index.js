@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import PrimeiroComponente from './componentes/PrimeiroComponente';
+import {CompA, CompB as B} from './componentes/SegundoComponente';
 
 const elemento = document.getElementById('root');
 
@@ -31,7 +32,10 @@ ReactDom.render(
       <PrimeiroComponente
           valor="Bom dia"
           aBcD={123}
-          outro={2**2}
+          outro={2 ** 2}
       />
+      <CompA valor="Olá eu so o A"/>
+      {/*<CompB valor="B na area"/>*/}
+      <B valor="B na area"/>{/* Com Alias */}
     </div>
     , elemento);
