@@ -28,6 +28,10 @@ const elemento = document.getElementById('root');
 // Usando um Componente
 ReactDom.render(
     <div>
-      <PrimeiroComponente/>
+      <PrimeiroComponente
+          valor="Bom dia"
+          aBcD={123}
+          outro={2**2}
+      />
     </div>
     , elemento);
