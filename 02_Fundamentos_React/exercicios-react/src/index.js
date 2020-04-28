@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import Hook from './componentes/Hook';
 // import PrimeiroComponente from './componentes/PrimeiroComponente';
 // import A, {CompB as B} from './componentes/SegundoComponente';
 // import MultiElementos from './componentes/MultiElementos';
@@ -8,7 +9,7 @@ import ReactDom from 'react-dom';
 // import ComponenteComFuncao from './componentes/ComponenteComFuncao';
 // import Pai from './componentes/Pai';
 // import ComponenteClasse from './componentes/ComponenteClasse';
-import Contador from './componentes/Contador';
+// import Contador from './componentes/Contador';
 
 const elemento = document.getElementById('root');
 
@@ -62,6 +63,9 @@ ReactDom.render(
     {/*<ComponenteClasse valor={'Sou um componente Classe!'} />*/}
 
 
-    <Contador numeroInicial={10}/>
+    {/*<Contador numeroInicial={10}/>*/}
+
+    <Hook/>
+
   </div>
   , elemento);
