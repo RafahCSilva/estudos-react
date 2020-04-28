@@ -13,6 +13,9 @@ Apostila do Curso
 ## Requires
 
 - NodeJS (win v6.10)(linux/mac v8.11)
+- npm
+    - `npm i -g create-react-app`
+- yarn
 - MongoDB (win v3.4)(mac v3.6)
 
 
