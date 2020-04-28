@@ -50,7 +50,7 @@ ReactDom.render(
 
       <Familia sobrenome="Pereiraaaaa">
         <Membro nome="Andre"/>
-        {/*<Membro nome="Mariana" sobrenome="Pereira"/>*/}
+        <Membro nome="Mariana" sobrenome="Pereira"/>
       </Familia>
 
     </div>

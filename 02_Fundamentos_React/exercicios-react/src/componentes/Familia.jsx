@@ -1,4 +1,5 @@
 import React from 'react';
+import {filhosComProps} from '../utils/utils';
 
 export default props =>
     <div>
@@ -11,5 +12,11 @@ export default props =>
 
       {/*{React.cloneElement(props.children, props)}*/}
 
-      {React.cloneElement(props.children, {...props})}
+      {/*{React.cloneElement(props.children, {...props})}*/}
+
+
+      {/*{React.Children.map(props.children, child =>
+          React.cloneElement(child, {...props})
+      )}*/}
+      {filhosComProps(props)}
     </div>
