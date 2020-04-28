@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 // import PrimeiroComponente from './componentes/PrimeiroComponente';
-// import {CompA, CompB as B} from './componentes/SegundoComponente';
-import MultiElementos from './componentes/MultiElementos';
+import A, {CompB as B} from './componentes/SegundoComponente';
+// import MultiElementos from './componentes/MultiElementos';
 
 const elemento = document.getElementById('root');
 
@@ -36,10 +36,10 @@ ReactDom.render(
           outro={2 ** 2}
       />*/}
 
-      {/*<CompA valor="Olá eu so o A"/>*/}
-      {/*<CompB valor="B na area"/>*/}
-      {/*<B valor="B na area"/>/!* Com Alias *!/*/}
+      <A valor="Olá eu so o A"/>
+      <B valor="B na area"/>
+      <B valor="B na area"/>{/* Com Alias */}
 
-      <MultiElementos/>
+      {/*<MultiElementos/>*/}
     </div>
     , elemento);
