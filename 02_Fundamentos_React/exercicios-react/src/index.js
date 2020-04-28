@@ -3,10 +3,11 @@ import ReactDom from 'react-dom';
 // import PrimeiroComponente from './componentes/PrimeiroComponente';
 // import A, {CompB as B} from './componentes/SegundoComponente';
 // import MultiElementos from './componentes/MultiElementos';
-import Familia from './componentes/Familia';
-import Membro from './componentes/Membro';
-import ComponenteComFuncao from './componentes/ComponenteComFuncao';
-import Pai from './componentes/Pai';
+// import Familia from './componentes/Familia';
+// import Membro from './componentes/Membro';
+// import ComponenteComFuncao from './componentes/ComponenteComFuncao';
+// import Pai from './componentes/Pai';
+import ComponenteClasse from './componentes/ComponenteClasse';
 
 const elemento = document.getElementById('root');
 
@@ -55,7 +56,9 @@ ReactDom.render(
 
     {/*<ComponenteComFuncao />*/}
 
+    {/*<Pai />*/}
 
-    <Pai />
+    <ComponenteClasse valor={'Sou um componente Classe!'} />
+
   </div>
   , elemento);
