@@ -48,9 +48,9 @@ ReactDom.render(
 
       {/*<FamiliaSilva />*/}
 
-      <Familia>
-        <Membro nome="Andre" sobrenome="Pereira"/>
-        <Membro nome="Mariana" sobrenome="Pereira"/>
+      <Familia sobrenome="Pereiraaaaa">
+        <Membro nome="Andre"/>
+        {/*<Membro nome="Mariana" sobrenome="Pereira"/>*/}
       </Familia>
 
     </div>
