@@ -6,6 +6,7 @@ import ReactDom from 'react-dom';
 import Familia from './componentes/Familia';
 import Membro from './componentes/Membro';
 import ComponenteComFuncao from './componentes/ComponenteComFuncao';
+import Pai from './componentes/Pai';
 
 const elemento = document.getElementById('root');
 
@@ -52,7 +53,9 @@ ReactDom.render(
       <Membro nome="Mariana" sobrenome="Pereira"/>
     </Familia>*/}
 
-    <ComponenteComFuncao />
+    {/*<ComponenteComFuncao />*/}
 
+
+    <Pai />
   </div>
   , elemento);
