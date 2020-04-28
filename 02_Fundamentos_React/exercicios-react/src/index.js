@@ -3,10 +3,8 @@ import ReactDom from 'react-dom';
 // import PrimeiroComponente from './componentes/PrimeiroComponente';
 // import A, {CompB as B} from './componentes/SegundoComponente';
 // import MultiElementos from './componentes/MultiElementos';
-import FamiliaSilva from './componentes/FamiliaSilva';
 import Familia from './componentes/Familia';
 import Membro from './componentes/Membro';
-
 
 const elemento = document.getElementById('root');
 
@@ -33,25 +31,25 @@ const elemento = document.getElementById('root');
 
 // Usando um Componente
 ReactDom.render(
-    <div>
-      {/*<PrimeiroComponente
+  <div>
+    {/*<PrimeiroComponente
           valor="Bom dia"
           aBcD={123}
           outro={2 ** 2}
       />*/}
 
-      {/*<A valor="Olá eu so o A"/>*/}
-      {/*<B valor="B na area"/>*/}
-      {/*<B valor="B na area"/>/!* Com Alias *!/*/}
+    {/*<A valor="Olá eu so o A"/>*/}
+    {/*<B valor="B na area"/>*/}
+    {/*<B valor="B na area"/>/!* Com Alias *!/*/}
 
-      {/*<MultiElementos/>*/}
+    {/*<MultiElementos/>*/}
 
-      {/*<FamiliaSilva />*/}
+    {/*<FamiliaSilva />*/}
 
-      <Familia sobrenome="Pereiraaaaa">
-        <Membro nome="Andre"/>
-        <Membro nome="Mariana" sobrenome="Pereira"/>
-      </Familia>
+    <Familia sobrenome="Pereiraaaaa">
+      <Membro nome="Andre"/>
+      <Membro nome="Mariana" sobrenome="Pereira"/>
+    </Familia>
 
-    </div>
-    , elemento);
+  </div>
+  , elemento);
