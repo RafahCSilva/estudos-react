@@ -7,7 +7,8 @@ import ReactDom from 'react-dom';
 // import Membro from './componentes/Membro';
 // import ComponenteComFuncao from './componentes/ComponenteComFuncao';
 // import Pai from './componentes/Pai';
-import ComponenteClasse from './componentes/ComponenteClasse';
+// import ComponenteClasse from './componentes/ComponenteClasse';
+import Contador from './componentes/Contador';
 
 const elemento = document.getElementById('root');
 
@@ -58,7 +59,9 @@ ReactDom.render(
 
     {/*<Pai />*/}
 
-    <ComponenteClasse valor={'Sou um componente Classe!'} />
+    {/*<ComponenteClasse valor={'Sou um componente Classe!'} />*/}
 
+
+    <Contador numeroInicial={10}/>
   </div>
   , elemento);
