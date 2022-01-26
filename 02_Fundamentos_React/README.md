@@ -10,6 +10,7 @@ sudo npm i -g create-react-app
 Criar projeto
 ````bash
 create-react-app exercicios-react
+create-react-app fundamentos-react
 ````
 
 Startando o projeto
