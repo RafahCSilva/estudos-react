@@ -10,8 +10,10 @@ export default function Inicio () {
       height: '100hv',
     } }>
       <Navegador destino="/estiloso" texto="Estiloso" />
-      <Navegador destino="/exemplo" texto="Exemplo" />
-      <Navegador destino="/jsx" texto="Jsx" cor={ 'green' } />
+      <Navegador destino="/exemplo" texto="Exemplo" cor={'#940030'}/>
+      <Navegador destino="/jsx" texto="Jsx" cor={ 'red' } />
+      <Navegador destino="/navegacao" texto="Navegação #01" cor={ 'green' } />
+      <Navegador destino="/cliente/sp/123" texto="Navegação #02" cor={ 'blue' } />
 
       {/*<h1>Fundamentos de Next.js & React</h1>*/ }
       {/*<h2>Vamos estudar esse framework</h2>*/ }
