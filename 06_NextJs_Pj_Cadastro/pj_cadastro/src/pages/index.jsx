@@ -14,6 +14,7 @@ export default function Inicio () {
       <Navegador destino="/jsx" texto="Jsx" cor={ 'red' } />
       <Navegador destino="/navegacao" texto="Navegação #01" cor={ 'green' } />
       <Navegador destino="/cliente/sp/123" texto="Navegação #02" cor={ 'blue' } />
+      <Navegador destino="/estado" texto="Componente com Estado" cor={ 'pink' } />
 
       {/*<h1>Fundamentos de Next.js & React</h1>*/ }
       {/*<h2>Vamos estudar esse framework</h2>*/ }
