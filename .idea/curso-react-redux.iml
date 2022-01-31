@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/02_Fundamentos_React/exercicios-react/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/02_Fundamentos_React/fundamentos-react/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06_NextJs_Pj_Cadastro/pj_cadastro/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/02_Fundamentos_React/exercicios-react" />
     </content>
     <orderEntry type="inheritedJdk" />
