@@ -1,6 +1,7 @@
 # Seção 6: Projeto Cadastro - Integração com Banco de dados (Firestore)
 
-[https://github.com/cod3rcursos/next-crud](https://github.com/cod3rcursos/next-crud)
+- [github.com/cod3rcursos/curso-nextjs](https://github.com/cod3rcursos/curso-nextjs)
+- [github.com/cod3rcursos/next-crud](https://github.com/cod3rcursos/next-crud)
 
 ````shell
 npx create-next-app pj_cadastro
