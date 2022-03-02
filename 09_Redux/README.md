@@ -125,3 +125,17 @@ let state02 = {
 7. Reducers
 8. Estado #2
 9. Atualiza UI
+
+## pratica
+
+````shell
+# cria app
+npx create-react-app redux-simples
+
+# add redux
+npm i redux react-redux
+
+# add sass
+npm i sass
+````
+

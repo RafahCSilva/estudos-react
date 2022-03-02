@@ -3,9 +3,9 @@ import Intervalo from './components/Intervalo'
 import Media from './components/Media'
 import Soma from './components/Soma'
 import Sorteio from './components/Sorteio'
-import { useState } from 'react'
 
 function App () {
+  /*
   // VERSAO SEM REDUX, usando hooks
   // componente pai (app) repassando os States e SetStates en todos os props
   const [ min, setMin ] = useState(10)
@@ -23,6 +23,21 @@ function App () {
         <Media min={ min } max={ max } />
         <Soma min={ min } max={ max } />
         <Sorteio min={ min } max={ max } />
+      </div>
+    </div>
+  )
+  */
+
+  return (
+    <div className="App">
+      <h1>Exercício React-Redux (Simples)</h1>
+      <div className="linha">
+        <Intervalo min={ 10 } max={ 20 } />
+      </div>
+      <div className="linha">
+        <Media min={ 10 } max={ 20 } />
+        <Soma min={ 10 } max={ 20 } />
+        <Sorteio min={ 10 } max={ 20 } />
       </div>
     </div>
   )
