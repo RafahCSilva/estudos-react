@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/02_Fundamentos_React/fundamentos-react/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/06_NextJs_Pj_Cadastro/pj_cadastro/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/02_Fundamentos_React/exercicios-react" />
+      <excludeFolder url="file://$MODULE_DIR$/curso-react-redux-master" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

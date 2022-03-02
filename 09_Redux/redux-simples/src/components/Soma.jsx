@@ -3,7 +3,7 @@ import Card from './Card'
 import { connect } from 'react-redux'
 
 function Soma (props) {
-  console.log(props)
+  console.log('Soma:', props)
   const { min, max } = props
   return (
     <Card title="Soma dos Números" blue>

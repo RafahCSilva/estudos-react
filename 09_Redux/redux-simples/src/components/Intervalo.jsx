@@ -1,10 +1,12 @@
 import './Intervalo.css'
 import React from 'react'
-
 import Card from './Card'
 import { connect } from 'react-redux'
+import * as storeActionsNumeros from '../store/actions/numeros'
+import { NUM_MIN_ALTERADO } from '../store/actions/numeros'
 
 function Intervalo (props) {
+  console.log('Intervalo:', props)
   const { min, max } = props
 
   return (
@@ -34,4 +36,20 @@ function mapStateToProps (state) {
   }
 }
 
-export default connect(mapStateToProps)(Intervalo)
+// ActionCreator -> action
+function mapDispatchToProps (dispatch) {
+  return {
+    alterarMinimo (novoNumero) {
+      dispatch(storeActionsNumeros.alteraNumeroMinimo(novoNumero))
+      // dispatch({ type: 'NUM_MIN_ALTERADO', payload: novoNumero })
+    },
+    alterarMaximo (novoNumero) {
+      dispatch(storeActionsNumeros.alterarNumeroMaximo(novoNumero))
+    },
+  }
+}
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(Intervalo)

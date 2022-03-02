@@ -32,12 +32,12 @@ function App () {
     <div className="App">
       <h1>Exercício React-Redux (Simples)</h1>
       <div className="linha">
-        <Intervalo min={ 10 } max={ 20 } />
+        <Intervalo />
       </div>
       <div className="linha">
-        <Media min={ 10 } max={ 20 } />
-        <Soma min={ 10 } max={ 20 } />
-        <Sorteio min={ 10 } max={ 20 } />
+        <Media />
+        <Soma />
+        <Sorteio />
       </div>
     </div>
   )

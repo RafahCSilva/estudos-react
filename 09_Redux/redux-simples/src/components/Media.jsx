@@ -3,7 +3,7 @@ import Card from './Card'
 import { connect } from 'react-redux'
 
 const Media = props => {
-  console.log(props)
+  console.log('Media:', props)
   const { min, max } = props
   return (
     <Card title="Média dos Números" green>

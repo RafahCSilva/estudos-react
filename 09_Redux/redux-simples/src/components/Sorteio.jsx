@@ -3,7 +3,7 @@ import Card from './Card'
 import { connect } from 'react-redux'
 
 function Sorteio (props) {
-  console.log(props)
+  console.log('Sorteio:', props)
   const { min, max } = props
   const aleatorio = Math.floor(Math.random() * (max - min) + min)
   return (
